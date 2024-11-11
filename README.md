@@ -17,5 +17,5 @@ To better analyze keywords for research trend visualizations, I initially normal
 
 To deepen the analysis, I plan to conduct a co-word analysis to explore the relationships between keywords. This will involve more sophisticated data processing and potentially the use of network analysis tools such as NetworkX. The ultimate goal is to also incorporate a visualization of co-authorship and co-keywords networks, which will provide further insights into the collaborative patterns and thematic connections in this field.
 
-Reference
+## Reference
 Donthu, N., Kumar, S., Mukherjee, D., Pandey, N., & Lim, W. M. (2021). How to conduct a bibliometric analysis: An overview and guidelines. Journal of Business Research, 133, 285–296. https://doi.org/10.1016/j.jbusres.2021.04.070
