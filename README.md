@@ -17,5 +17,12 @@ To better analyze keywords for research trend visualizations, I initially normal
 
 To deepen the analysis, I plan to conduct a co-word analysis to explore the relationships between keywords. This will involve more sophisticated data processing and potentially the use of network analysis tools such as NetworkX. The ultimate goal is to also incorporate a visualization of co-authorship and co-keywords networks, which will provide further insights into the collaborative patterns and thematic connections in this field.
 
+# reflection_milestone3_11-24-2024
+In this thrid milestone, I focused on enhancing the visualization aspects and improving the code for better data representation. 
+
+First, I unified the color palette for the annual publication trends figures, creating more cohesive visualizations. Additionally, I introduced a new pie chart comparing publication volumes between COMPUTERS IN HUMAN BEHAVIOR and INTERNATIONAL JOURNAL OF HUMAN-COMPUTER STUDIES, which clearly showed the former's significant dominance in publication numbers. One of the major improvements was the extraction of first authors' countries from the 'Addresses' field using regular expressions and visualization of global distribution. I standardized country names to lowercase to ensure consistency. The global map visualization revealed that the USA, China, UK, Germany, Spain, and South Korea are the leading countries in HCI publications. An interesting technical challenge arose when the original data used 'England' instead of 'United Kingdom', so I had to modify this to ensure proper recognition by the px locationmode parameter. I also enhanced the annual publication trend visualization by incorporating color-coding for the top 5 countries' yearly publication volumes in the bar chart. This addition provides a clear visual representation of each active country's contribution over time. While reviewing the top 30 affiliations, I noticed a strong US presence and decided to create a state-level visualization using px.choropleth with locationmode='USA-states'. This revealed an interesting pattern showing that East Coast institutions are more active in HCI research compared to those on the West Coast.
+
 ## Reference
 Donthu, N., Kumar, S., Mukherjee, D., Pandey, N., & Lim, W. M. (2021). How to conduct a bibliometric analysis: An overview and guidelines. Journal of Business Research, 133, 285–296. https://doi.org/10.1016/j.jbusres.2021.04.070
+
+https://plotly.com/python/choropleth-maps/
